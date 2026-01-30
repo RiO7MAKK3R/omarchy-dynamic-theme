@@ -1,0 +1,63 @@
+# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
+# example for white: "#ffffff", "#ff" or "255 255 255".
+
+# All graphs and meters can be gradients
+# For single color graphs leave "mid" and "end" variable empty.
+# Use "start" and "end" variables for two color gradient
+# Use "start", "mid" and "end" for three color gradient
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+# High-Contrast Black & White Theme for btop
+
+# Extreme High-Contrast Black & White Theme for btop
+
+theme[main_bg]=""
+theme[main_fg]="#FFFFFF"
+
+theme[title]="#FFFFFF"
+theme[hi_fg]="#FFFFFF"
+
+theme[selected_bg]="#FFFFFF"
+theme[selected_fg]="#000000"
+
+theme[inactive_fg]="#555555"
+theme[proc_misc]="#FFFFFF"
+
+theme[cpu_box]="#FFFFFF"
+theme[mem_box]="#FFFFFF"
+theme[net_box]="#FFFFFF"
+theme[proc_box]="#FFFFFF"
+theme[div_line]="#FFFFFF"
+
+# Pure black & white striped-style graphs/meters
+theme[temp_start]="#FFFFFF"
+theme[temp_mid]="#000000"
+theme[temp_end]="#FFFFFF"
+
+theme[cpu_start]="#FFFFFF"
+theme[cpu_mid]="#000000"
+theme[cpu_end]="#FFFFFF"
+
+theme[free_start]="#FFFFFF"
+theme[free_mid]="#000000"
+theme[free_end]="#FFFFFF"
+
+theme[cached_start]="#FFFFFF"
+theme[cached_mid]="#000000"
+theme[cached_end]="#FFFFFF"
+
+theme[available_start]="#FFFFFF"
+theme[available_mid]="#000000"
+theme[available_end]="#FFFFFF"
+
+theme[used_start]="#FFFFFF"
+theme[used_mid]="#000000"
+theme[used_end]="#FFFFFF"
+
+theme[download_start]="#FFFFFF"
+theme[download_mid]="#000000"
+theme[download_end]="#FFFFFF"
+
+theme[upload_start]="#FFFFFF"
+theme[upload_mid]="#000000"
+theme[upload_end]="#FFFFFF"

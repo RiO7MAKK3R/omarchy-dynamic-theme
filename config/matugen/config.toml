@@ -1,0 +1,16 @@
+[config]
+output_dir = "home/ansh/.cache/matugen"
+
+[templates.css]
+input_path = "templates/colors.css"
+output_path = "colors.css"
+
+[templates.hyprland]
+input_path = "templates/hyprland.conf"
+output_path = "hyprland.conf"
+
+
+[templates.gtk]
+input_path = "templates/gtk.css"
+output_path = "gtk.css"
+

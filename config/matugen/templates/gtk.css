@@ -1,0 +1,4 @@
+@define-color theme_bg_color {{ colors.background.default.hex }};
+@define-color theme_fg_color {{ colors.on_surface.default.hex }};
+@define-color accent_color {{ colors.primary.default.hex }};
+
